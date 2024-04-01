@@ -1,0 +1,53 @@
+Reach water quality data           .rwq file 12/7/2017 12:00:00 AM ArcSWAT 2012.10_3.19
+Bottom Algae: 
+               1      |  Ab_light : light limitation option (1,2,3) 
+               1      |  Ab_ipho  : photosynthesis model option (0, zero order; 1, first order)        
+               0.07   |  Ab_Ksnb :  external N half-saturation constant (mg N/L)  
+               2.54   |  Ab_KqN :   intracelluar N half-saturation constant (mgN/gD)
+               4.17   |  Ab_qoN :   minimum cell quotas of N (mgN/gD)
+               0.098  |  Ab_Kspb :  external P half-saturation constant (mg P/L) 
+               4.93   |  Ab_KqP :   intracelluar P half-saturation constant (mgP/gD) 
+               1.93   |  Ab_qoP :   minimum cell quotas of P (mgN/gD) 
+               0.6    |  Ab_fdic :  the fraction of DIC in H2CO3* and HCO3-,for calculating nutrient limitation
+               0.792  |  Ab_kscb :  Inorganic carbon half saturation constant (mg/L,unit converted)
+               0.02   |  Ab_keb :   background light extinction coefficient (/m)
+               0.052  |  Ab_kiss :  light extinction coefficient by inorganic suspended solids (L/mgD/m) 
+               0.174  |  Ab_kpom :  light extinction coefficient by particular organic matter (POM) (L/mgD/m) 
+               0.009  |  Ab_kap :   linear light extinction coefficient by algae (L/ugA/m) 
+               0.054  |  Ab_kapn :  non-linear light extinction coefficient by algae (L/ugA)2/3/m 
+               0.024  |  Ab_kAb :   linear light extinction coefficient by bottom [m3/gD/m] 
+               0.6    |  Ab_ksob :  half-saturation oxygen inhibition constant for respiration 
+               1.581  |  Ab_klb :   bottom algae light parameter (MJ/m2/day)   ---Ab_rp(jres)%klb
+             200.0    |  Ab_Abmax : First-order carrying capacity of bottom algae [gD/m2/d]  
+              36.2    |  Ab_kph :   maximum photosynthesis rate [d-1 or gD/m2/day]     !!  Junyu Qi -----2.0 W2
+               0.042  |  Ab_krb1 :  bottom algae basal respiration                     !!  Junyu Qi ----- 0.04 W2
+               0.389  |  Ab_krb2 :  photo-respiration rate parameter                   !!  Junyu Qi ------  0.04 W2
+               0.02   |  Ab_kdb :   bottom algae death rate (/day)                     !!  Junyu Qi ------ 0.1 W2
+               0.21   |  Ab_kexb :  bottom algae excretion rate (/day) 
+              37.85   |  Ab_pmP :   maximum uptake rate for P (mgP/gD/day)
+             284.7    |  Ab_pmN :   maximum uptake rate for N (mgN/gD/day)
+Organic Matter:
+               1.0    |  OM_ksdocf : half-saturation oxygen attenuation for DOC oxidation (mgO2/L)                  
+               0.4    |  OM_rca :    algal carbon to biomass ratio                             
+               0.1    |  OM_f_lpp :  fraction of algal mortality into LPOC         
+               0.8    |  OM_f_rpp :  fraction of algal mortality into RPOC
+               0.05   |  OM_f_ldp :  fraction of algal mortality into LDOC
+               0.075  |  OM_klp  :   LPOC dissolution rate (/day) LPOC->LDOC
+               0.08   |  OM_kd_lp :  LPOC decay rate to DIC (/day) LPOC->DIC                                                                                          
+               0.01   |  OM_klrp  :  decay rate of LPOC to RPOC (/day) LPOC->RPOC
+               0.0025 |  OM_krp :    RPOC dissolution rate (/day) RPOC->LDOC
+               0.001  |  OM_kd_rp :  RPOC decay rate to DIC (/day) RPOC->DIC                             
+               0.25   |  OM_kld :    LDOC mineralization rate (/day)    LDOC->DIC                
+               0.01   |  OM_klrd :   decay rate of LDOC to RDOC (/day) LDOC->RDOC               
+               0.1    |  OM_ksoxdn : half-saturation oxygen attenuation for denitrification (mgO2/L)
+               0.002  |  OM_kdnit :  NO3 denitrification rate (/day) LDOC consumned
+               0.006  |  OM_krd :    RDOC mineralization rate (/day) RDOC->DIC 
+             391.0    |  OM_p_co2 :  partial pressure of CO2 (ppm,parts per million)
+               0.02   |  OM_ksed :   first-order sediment decay rate (/day)
+               0.05   |  OM_kbur :   first-order sediment burial rate (/day)
+               0.2    |  OM_f_co2:   fraction of DIC in CO2
+               2.5    |  OM_sv_lp :   LPOC settling velocity (m/day)
+               2.5    |  OM_sv_rp :   RPOC settling velocity (m/day)
+
+
+      
